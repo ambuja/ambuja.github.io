@@ -1,0 +1,14 @@
+CSS Dont 
+Dont use too many classes within CSS 
+Avoid ising ID's for styling 
+Don't use !important
+Name things based on what they do , not how they look
+
+CSS do
+
+Think in terms of modules and components
+Be consistent and decide about spaces vs. tabs and how many to indent
+
+
+Autoprefixer - all different browser sepcifications for CSS 
+Caniuse - 
