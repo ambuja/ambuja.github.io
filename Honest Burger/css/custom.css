@@ -1,0 +1,186 @@
+body{
+	font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+	font-family: 'Amatic SC', cursive !important;
+}
+
+h2{
+	font-family: 'Oswald', sans-serif;
+}
+
+p{
+	font-size: 16px;
+}
+/* vertical-centered text */
+.text-vcenter {
+display: table-cell;
+text-align: center;
+vertical-align: middle;
+
+}
+.text-vcenter h1 {
+font-size: 3.5em;
+font-weight: 500;
+margin: 0;
+padding: 0;
+
+}
+
+.lead{
+	font-size: 16px;
+	font-family: 'Oswald', sans-serif;
+
+
+}
+
+
+
+/* additional sections */
+#home {
+background: url('https://download.unsplash.com/uploads/14126758789351371c7ec/aa322c2d') no-repeat center center fixed; 
+display: table;
+height: 400px;
+position: relative;
+width: 100%;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
+
+.navbar-default {
+	background-color: #fff;
+	
+ }
+
+
+ .navbar-brand,
+ .navbar-nav li a {
+ 	height: 80px;
+ 	line-height: 80px;
+ 	padding: 0 25px;
+ 	margin-left: 1px;
+ 	font-family: 'Oswald', sans-serif;
+ 	font-size: 1.3em;
+ 	color: #fff;
+
+ }
+
+ .navbar-brand { padding-right: 2px; }
+ .navbar-default .navbar-nav>li>a { color: #F5A623; }
+ 
+ /* social icons */
+ li.facebook a {
+ 	width: 80px;
+ 	color: #F5A623 !important;
+ 	font-size: 2.8em;
+ 	text-align: center;
+ 	box-shadow: none;
+ 	border-right: none;
+ 
+ }
+
+ li.twitter a {
+ 	width: 80px;
+ 	color: #F5A623 !important;
+ 	font-size: 2.8em;
+ 	text-align: center;
+ 	box-shadow: none;
+ 	border-right: none;
+ 
+ }
+
+ /*main content*/	
+
+ 	.main-content{
+ 		text-align: center;
+ 	}
+
+ 	.main-content h3{
+ 		padding: 10px 25px;
+ 		display: inline-block;
+ 		font-size: 4em;
+ 		color: #F5A623 ;
+ 		
+ 	}
+
+
+
+
+
+.accordion-toggle{display:block;}
+.padz{padding:0;}
+.padz-s{padding:0 0 0 20px;}
+
+.panel-group {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	/*margin-left: 190px;*/
+
+}
+
+
+.panel-title>.small, .panel-title>.small>a, .panel-title>a, .panel-title>small, .panel-title>small>a {
+	color:#F5A623;
+}
+
+.col-md-6 {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	}
+
+
+@media (max-width: 768px){
+	.navbar-default .navbar-nav>li>a {
+		width: 100%;
+		border-bottom: 1px solid #3d3d3d;
+		text-align: center;
+	}
+}
+.navbar-default .navbar-toggle {
+	margin-top: 25px;
+	border-color: #646464;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-color:#F5A623;
+}
+
+  .padz-s{
+    padding:0;
+  }
+  .panel-group {margin-bottom:30px;}
+}
+
+.panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'sdicons';  /* essential for enabling glyphicon */
+    content: "\e005";    /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: grey;         /* adjust as needed */
+}
+.panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e003";    /* adjust as needed, taken from bootstrap.css */
+}
+
+.wide{
+  width:100%;
+  height:200px;
+  background-image:url('images/food.jpg');
+  background-size:cover;
+}
+
+.wide img{
+	width: 100%
+}
+
+.logo{
+	color: #fff;
+	float:right;
+}
+
