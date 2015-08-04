@@ -1,0 +1,332 @@
+body{
+	font-family: 'Alegreya', Georgia, "Times New Roman", Times, serif;
+}
+
+h3 {
+	font-family: 'Amatic SC', cursive !important;
+	font-size: 30px;
+}
+
+h2{
+	font-family:'Alegreya', Georgia, "Times New Roman", Times, serif;
+	color: #F5A623;
+}
+
+p{
+	font-size: 16px;
+}
+
+.logosub{
+	font-size: 45px;
+	color:#fff;
+	font-weight: 500;
+}
+
+blockquote{
+	font-family: 'Hagin caps', Helvetica, Arial, sans-serif;
+	font-weight: 50px;
+	border-left: none;
+	font-family: 'Alegreya', Georgia, "Times New Roman", Times, serif;
+}
+/* vertical-centered text */
+.text-vcenter {
+display: table-cell;
+text-align: center;
+vertical-align: middle;
+
+
+}
+.text-vcenter h1 {
+font-size: 3.5em;
+font-weight: 500;
+margin: 0;
+padding: 0;
+
+}
+
+.lead{
+	font-size: 16px;
+	font-family: 'Alegreya', Georgia, "Times New Roman", Times, serif;
+	text-align: justify;
+	line-height: 1.7;
+}
+
+.farmtext{
+	font-size: 26px;
+	font-family: 'Alegreya', Georgia, "Times New Roman", Times, serif;
+	text-align: justify;
+	line-height: 1.7;
+	color: #fff;
+}
+
+
+
+
+
+/* additional sections */
+#home {
+background: url('https://download.unsplash.com/reserve/EnF7DhHROS8OMEp2pCkx_Dufer%20food%20overhead%20hig%20res.jpg') no-repeat center center fixed; 
+display: table;
+height: 400px;
+position: relative;
+width: 100%;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
+
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.navbar-default {
+	background-color: #fff;
+	
+ }
+
+#nav {
+  width: 100%;
+  position:static;
+  top:-32px;
+}
+ 
+#nav.affix {
+   position: fixed;
+   top: 0;
+   z-index:10;
+   -webkit-transition: all .6s ease-in-out;
+}
+
+ .navbar-brand,
+ .navbar-nav li a {
+ 	height: 80px;
+ 	line-height: 80px;
+ 	padding: 0 25px;
+ 	margin-left: 1px;
+ 	font-family: 'Oswald', sans-serif;
+ 	font-size: 1.3em;
+ 	color: #fff;
+
+ }
+
+ .navbar-brand { padding-right: 2px; }
+ .navbar-default .navbar-nav>li>a { color: #F5A623; }
+
+
+ .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+background-color: #fff;
+ }
+ 
+ /* social icons */
+ li.facebook a {
+ 	width: 80px;
+ 	color: #F5A623 !important;
+ 	font-size: 2.3em;
+ 	text-align: center;
+ 	box-shadow: none;
+ 	border-right: none;
+ 
+ }
+
+ li.twitter a {
+ 	width: 80px;
+ 	color: #F5A623 !important;
+ 	font-size: 2.3em;
+ 	text-align: center;
+ 	box-shadow: none;
+ 	border-right: none;
+ 
+ }
+
+ /*main content*/	
+
+ 	.main-content{
+ 		text-align: center;
+ 	}
+
+ 	.main-content h3{
+ 		padding: 10px 25px;
+ 		display: inline-block;
+ 		font-size: 4em;
+ 		color: #F5A623 ;
+ 		
+ 	}
+
+
+
+.menu{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.accordion-toggle{display:block;}
+.padz{padding:0;}
+.padz-s{padding:0 0 0 20px;}
+
+.panel-group {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	/*margin-left: 190px;*/
+
+}
+
+
+.panel-title>.small, .panel-title>.small>a, .panel-title>a, .panel-title>small, .panel-title>small>a {
+	color:#F5A623;
+	font-size: 20px;
+}
+
+.panel-default {
+	border-color: transparent;
+}
+
+
+.panel-heading .accordion-toggle.collapsed:after {
+
+}
+.panel-default>.panel-heading {
+	background-color: #fff;
+	}
+
+.col-md-6 {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	}
+
+.bg-4 {
+	padding-top:30px;
+    background-color:#e6e6e6;
+}
+
+.wrapper-title h2{
+	font-size: 70px;
+	line-height: 70px;
+	margin:0px;
+	color:#fff;
+	font-family: 'Amatic SC', Georgia, "Times New Roman", Times, serif;
+	text-transform:uppercase;
+	font-weight: 600;
+	
+}
+
+.wrapper-title h3{
+	font-size: 40px;
+	line-height: 70px;
+	margin-top: -30px;
+	color:#fff;
+	font-family: 'Amatic SC', Georgia, "Times New Roman", Times, serif;
+	text-transform:uppercase;
+	font-weight: 700;
+}
+.wrapper-title p{
+	font-size: 20px; 
+	text-align: justify;
+	color: black;
+	margin-top: -10px;
+}
+
+.title-section{
+	font-size: 50px;
+	font-weight: 500;
+	color:#fff;
+	font-family: 'Amatic SC', Georgia, "Times New Roman", Times, serif;
+	text-transform: uppercase;
+}
+.farmText {
+	text-align: center;
+	line-height: 40px;
+	
+}
+
+
+.farmText h3{
+	font-size: 30px;
+	font-weight: 600;
+
+}
+
+.farmText p{
+	color: #fff;
+	font-size:22px;
+	font-family:'Alegreya', Georgia, "Times New Roman", Times, serif; 
+}
+#footer {
+  height: 150px;
+  background-color: #F5A623;
+  margin-top:50px;
+  padding-top:20px;
+  padding-bottom:10px;
+  margin-top:20px;
+}
+
+
+.footer-logo {
+	display: table-cell;
+text-align: center;
+vertical-align: middle;
+height: 50%;
+margin-top: 1px;
+}
+
+
+}
+/*-------------Media Quieries---------------*/
+
+@media (max-width: 768px){
+	.navbar-default .navbar-nav>li>a {
+		width: 100%;
+		border-bottom: 1px solid #3d3d3d;
+		text-align: center;
+	}
+}
+.navbar-default .navbar-toggle {
+	margin-top: 25px;
+	border-color: #646464;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-color:#F5A623;
+}
+
+  .padz-s{
+    padding:0;
+  }
+  .panel-group {margin-bottom:30px;}
+}
+
+.panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+     /* font-family: 'sdicons';  /* essential for enabling glyphicon */
+     /* content: "\e005";    /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: grey;         /* adjust as needed */
+}
+.panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e003";    /* adjust as needed, taken from bootstrap.css */
+}
+
+.wide{
+  width:90%;
+  height:400px;
+  margin-top: 30px;
+  background-image:url('images/food.jpg');
+  background-size:cover;
+}
+
+.wide img{
+	width: 100%
+}
+
+.logo{
+	color: #fff;
+	float:right;
+}
+
