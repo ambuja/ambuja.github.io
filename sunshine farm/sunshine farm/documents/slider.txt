@@ -1,0 +1,31 @@
+/*---------------- animation ----------------*/
+ul#slides1,
+.slides1_wrap {
+	display:block;
+	width: 896px;
+	height: 241px;
+	position:relative;	
+	margin: 0 auto;
+	padding: 0;
+}
+
+.slides1_wrap {
+	border: 3px solid #f0ebeb;
+	-webkit-box-shadow: 1px 1px 8px 0px #626060;
+	-moz-box-shadow: 1px 1px 8px 0px #626060;
+	-box-shadow: 1px 1px 8px 0px #626060;
+}
+
+.slides1_wrap .prev {
+	display: none;
+}
+.slides1_wrap .next {
+	display: none;
+}
+
+
+/*------- prev/next ----------*/
+
+.auto_controls {
+	display:none; /*we dont want the Pause button to show*/
+}

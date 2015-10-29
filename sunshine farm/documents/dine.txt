@@ -1,0 +1,16 @@
+      <dl class="singleEntry">
+        <dt>Florean Fortescue's Ice Cream Parlour</dt>
+        <dd>The largest selection of ice cream flavors and other delicious frozen treats</dd>
+      </dl>
+      <dl class="singleEntry">
+        <dt>The Leaky Cauldron</dt>
+        <dd>Diagon's longtime pub and gathering place is a great spot to meet friends new and old. Standing between "muggle London" and the shops of Diagon Alley, the Leaky Cauldron is the perfect place to enjoy a pint and a juicy steak</dd>
+      </dl>
+      <dl class="singleEntry">
+        <dt>Sugarplum's Sweets Shop</dt>
+        <dd>Magical candies and sweets to satisfy even the biggest sweet-tooth on the planet. Stock up for a new year at Hogwarts with all the goodies you will need!</dd>
+      </dl>
+      <dl class="singleEntry">
+        <dt>Street Vendors</dt>
+        <dd>For a quick bite, check out the various stalls and street vendors of Diagon Alley</dd>
+      </dl>
