@@ -1,3 +1,0 @@
-<!--[if lt IE 9]>
-<link rel="stylesheet" type="text/css" href="styles/ie8-below.css" />
-<![endif]-->
