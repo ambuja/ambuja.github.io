@@ -1,4 +1,4 @@
-/* copy loaded thumbnails into carousel */
+/* copy loaded thumbnails into carousel 
 $('.panel .img-responsive').on('load', function() {
   
 }).each(function(i) {
@@ -16,15 +16,15 @@ $('.panel .img-responsive').on('load', function() {
   }
 });
 
-/* activate the carousel */
+/* activate the carousel 
 $('#modalCarousel').carousel({interval:false});
 
-/* change modal title when slide changes */
+/* change modal title when slide changes 
 $('#modalCarousel').on('slid.bs.carousel', function () {
   $('.modal-title').html($(this).find('.active').attr("title"));
 })
 
-/* when clicking a thumbnail */
+/* when clicking a thumbnail 
 $('.panel-thumbnail>a').click(function(e){
   
     e.preventDefault();
@@ -34,4 +34,9 @@ $('.panel-thumbnail>a').click(function(e){
   	$('#myModal').modal('show'); // show the modal
     $('#modalCarousel').carousel(id); // slide carousel to selected
   	return false;
+}); */
+
+
+$('body').scrollspy({
+  target: '#bs-example-navbar-collapse-1'
 });

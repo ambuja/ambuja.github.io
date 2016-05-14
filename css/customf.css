@@ -1,0 +1,13 @@
+body { 
+  padding-top: 50px; 
+}
+.content {
+  color: white;
+}
+.text-white {
+  color: #eee;
+}
+
+#home{
+  background: https://images.unsplash.com/uploads/141103282695035fa1380/95cdfeef?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=e52d8eb0864ecc0a7628d04c5f8f4e42") no-repeat fixed center center/cover;
+}
