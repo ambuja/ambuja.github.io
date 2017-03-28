@@ -242,6 +242,8 @@ background-color: #fff;
 .farmText {
 	text-align: center;
 	line-height: 40px;
+	width:100%;
+	overflow: hidden;
 	
 }
 
@@ -310,7 +312,7 @@ margin-top: 1px;
 }
 .panel-heading .accordion-toggle.collapsed:after {
     /* symbol for "collapsed" panels */
-    content: "\e003";    /* adjust as needed, taken from bootstrap.css */
+    /* content: "\e003";    /* adjust as needed, taken from bootstrap.css */
 }
 
 .wide{

@@ -16,23 +16,6 @@
 		<script src=".js/respond.min.js"></script>
 
 		<style type="text/css" media="all">
-	
-
-    p, #resume li{
-    	font-size: 1.063em; /*17px /16= 1.063em */
-    	line-height: 1.223; /* 1.3 /1.063 = 1.223 */
-    	margin: .612em 0;
-
-    }
-
-  	.wrapper {
-    padding: 0 .65em;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-	
 
 	</style>
 
@@ -42,16 +25,21 @@
 		<div id="container-nav">
 		<section id="nav" class="wrapper">
 			<h3>Ambuja</h3>
-			<!---close for now
-				<nav>
-				<ul>
-					<li>Portfolio</li>
-					<li>Resume</li>
-					<li>LinkedIn Profile</li>
-					<li>Contact</li>
-				</ul>
-				</nav>
-				-->		
+		
+					        <!-- Checkbox Hack markup -->
+        <input type="checkbox" id="toggle" />
+        <label for="toggle" onclick>Menu</label>
+        <!-- /Checkbox Hack markup -->
+
+					 <nav>
+            <ul>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="./">LinkedIn Profile</a></li> <!-- No destination yet -->
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+				
 			</section>
 		</div>
 
@@ -149,7 +137,7 @@
 
 					<ul>
 					
-						<li>HTML5 &amp; CSS3 & Javascript</li>
+						<li>HTML5 &amp; CSS3 &amp; Javascript</li>
 						<li>Responsive Web Design</li>
 						<li>Web Analytics</li>
 						<li>Bootstrap, Foundation</li>
@@ -168,6 +156,26 @@
 	</div>
 			<!--Add closing <article> tag above here-->
 			<div id="container-footer">
+			<form id="contact">
+    <fieldset class="wrapper">
+        <legend>Contact</legend>
+            <ul class="group">
+                <li class="name">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" />
+                </li>
+                <li class="email">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" />
+                </li>
+                <li class="message">
+                    <label for="message">Say Hello</label>
+                    <textarea id="message" name="message"></textarea>
+                </li>
+            </ul>
+        <input class="send" type="submit" name="submit" value="Send" />
+    </fieldset>
+</form>
 			<footer id="colophon">
 		<!--Add opening <footer> tag below here-->
 			
