@@ -187,93 +187,168 @@ p, #resume li {
 }
 
 h1,h2,h3,h4,h5,h6 {
-	    font-weight: 100;
-	    }
+	font-weight: 100;
+}
 		
 h1 {
 	font-size: 3.189em;
 	line-height: 1.223;
-		}
+}
 	
 h2  {
 	font-size: 2.126em;
 	line-height: 1.223;
-		    }
+}
 			
 h1, h2 {
 	text-shadow: 0 2px 2px rgba(0, 0, 0, .65);
-			 }
+}
 			 
 h3 {
 	font-size: 1.382em; 
 	line-height: 1.223;
-		}
+}
 		    
 h4 {
 	font-size: 1em;
 	line-height: 1.56;
 	text-transform: uppercase;
-		}
+}
 		
 h3,h4 {      
 	font-weight: 300;
 	text-transform: uppercase;
-		}
+}
 		
 h5 {
 	font-size: .8125em;
 	line-height: 1.125;
-		}
+}
 
 h5,h6 {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: .85em;
 	line-height: 1.53;
 	font-weight: 500;
-		}
+}
+
 h6 {
 	color: #aaa;
 	font-weight: 200;
-		}
+}
 		
 .wrapper {
-	        padding: 0 .65em;
-	        -webkit-box-sizing: border-box;
-	        -moz-box-sizing: border-box;
-	        box-sizing: border-box;
-		}
+    padding: 0 .65em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 		
-#masthead {
-			color:#fff;
-		        width:80%;
-		}
+/* Navigation */	
+
+#container-nav {
+	background: #fff;
+}
+		
+#nav {
+    padding: .65em 0;
+}
+
+#nav h3 {
+    float: left;
+    text-transform: capitalize; 
+}
+
+#nav ul {
+    list-style: none;
+    padding: 0;
+    border-bottom: 1px solid #eee;
+    margin: .65em 0 .39em;
+}
+
+#nav li {
+   border-top: 1px solid #eee;
+}
+
+#nav a {
+   display: block;
+   font-size: 1.063em;
+   color: #333;
+   text-decoration: none;
+   padding: .975em 1.3em; 
+}
+
+#nav a:hover {
+   background: #f8f8f8;
+}
+
+#nav nav {
+    height: 0;
+    overflow: hidden;
+}
+
+/* Advanced Checkbox Hack */
+
+body { 
+    -webkit-animation: bugfix infinite 1s; 
+}
+
+@-webkit-keyframes bugfix {
+    from {padding: 0;} 
+    to {padding: 0;} 
+}
+
+#nav input[type=checkbox] {
+    position: absolute;
+    top: -999em;
+    left: -999em;
+}
+
+#nav label { 
+    display: block;
+    background: url("../img/icon-menu.png") no-repeat right center;
+    text-indent: -999em;
+    cursor: pointer;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;
+}
+
+#nav input[type=checkbox]:checked ~ nav {
+    height: auto;
+    overflow: visible;  
+}
+		
+#masthead { 
+    width: 80%;
+	color: #fff;
+}
 		
 /* Headshot */
 
 #maya {
-		    width: 25%;
-		    height: 0;
-		    padding-bottom: 25%;
-		    }
+    width: 25%;
+    height: 0;
+    padding-bottom: 25%;
+}
     
 #maya img {
-		    width: 100%;
-		    }		
+    width: 100%;
+}		
 		
-
+#nav h3 {
+	text-transform: capitalize;
+}
 		
 #content article {
 	padding-top: .65em;
 	padding-bottom: 1.3em;
-		}
+}
 		
 #portfolio h4 {
 	line-height: 1.82;
-		}
-
-.box {
-			padding:14px;
-		}
+}
 		
 .box h4 {
 	color: #999;
@@ -281,12 +356,12 @@ h6 {
 	border-bottom: 1px solid #eee;
 	margin-bottom: .975em; /* 3/4 of 1.3 */
 	text-align: center;
-		}
+}
 		
 .box ul {
 	list-style: none;
 	padding: 0;
-		}
+}
 
 #portfolio figure,.box {
 	background: #fff;
@@ -294,7 +369,11 @@ h6 {
 	-webkit-box-shadow: 0 0 .325em .13em rgba( 0, 0, 0, .1 );
 	box-shadow: 0 0 .325em .13em rgba( 0, 0, 0, .1 );
 	padding: .975em; /* 3/4 of 1.3 */
-		}
+	max-width: 25em;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
 		
 /* Creates hover effect on Portfolio images */
 #portfolio figure:hover,
@@ -302,152 +381,36 @@ h6 {
 	 -moz-box-shadow: 0 0 .65em .325em rgba( 0, 0, 0, .1 );
 	 -webkit-box-shadow: 0 0 .65em .325em rgba( 0, 0, 0, .1 );
 	 box-shadow: 0 0 .65em .325em rgba( 0, 0, 0, .1 );
-				}
+}
 
 /* Image Offset for Indication of Linked Content */
 
 #portfolio figure:hover {
 		 bottom: .26em;
-				}
+}
 		
 section footer {
 	clear: both;
-		   }
-
-#container-nav {
-	background:#fff;
 }
 
-
-
 #container-content {
-	padding: 24px 0;
+	padding: 1.3em 0;
 }
 
 #container-footer {
-	padding: 32px 0;
-	background:#352a38;
-	color:#eee;
-	font-weight:100;
-}
-
-img {
-	max-width:100%;
+	padding: 1.3em 0;
+	background: #352a38;
+	color: #eee;
+	font-weight: 100;
 }
 
 #nav,
 #masthead,
 #content,
+#contact,
 #colophon {
     margin: 0 3.3%;
     }
-	
-
-	#nav {
-	    padding: .65em 0;
-	}
-	
-	#nav h3 {
-	    float: left;
-	    text-transform: capitalize; 
-	}
-	
-	#nav ul {
-	    list-style: none;
-	    padding: 0;
-	    border-bottom: 1px solid #eee;
-	    margin: .65em 0 .39em;
-	}
-
-	#nav li {
-	   border-top: 1px solid #eee;
-	}
-	
-	#nav a {
-	   display: block;
-	   font-size: 1.063em;
-	   color: #333;
-	   text-decoration: none;
-	   padding: .975em 1.3em; 
-	}
-	
-	#nav a:hover {
-	   background: #f8f8f8;
-	}
-	
-	#nav nav {
-	    height: 0;
-	    overflow: hidden;
-	}
-	
-	
-	body { 
-	    -webkit-animation: bugfix infinite 1s; 
-	}
-
-	@-webkit-keyframes bugfix {
-	    from {padding: 0;} 
-	    to {padding: 0;} 
-	}
-	
-	#nav input[type=checkbox] {
-	    position: absolute;
-	    top: -999em;
-	    left: -999em;
-	}
-	
-	#nav label { 
-	    display: block;
-	    background: url("../img/icon-menu.png") no-repeat right center;
-	    text-indent: -999em;
-	    cursor: pointer;
-	    -webkit-user-select: none;  /* Chrome all / Safari all */
-	    -moz-user-select: none;     /* Firefox all */
-	    -ms-user-select: none;      /* IE 10+ */
-	    user-select: none;
-	}
-	
-	#nav input[type=checkbox]:checked ~ nav {
-	    height: auto;
-	    overflow: hidden;  
-	}
-	
-	@media screen and (min-width: 45em) {
-
-	    /*
-	    1. Remove padding from one-column layout style.
-	    */
-    
-	    #nav {
-	        padding: 0;
-	    }
-		
-	    #nav h3 {
-	         margin: .39em 1.3em 0 0;
-	    }
-		
-	    #nav label {
-	        display: none;
-	    }
-		
-	    #nav nav {
-	        height: auto;
-	        overflow: visible;
-	    }
-		
-	    #nav ul {
-	        border: 0;
-	        margin: 0;
-	        }
-		#nav li {
-		        display: inline;
-		        border: 0;
-		    }
-		#nav a {
-		        display: inline-block;
-		        }
-	}
-		
 
 /********************************************
 	Fluid Media
@@ -474,8 +437,6 @@ img {
 	interpolation-mode
 	http://css-tricks.com/ie-fix-bicubic-scaling-for-images/
 	 */
-	
-
 
 /* ******************************************
 	   Form Styles Basic Layout
@@ -562,46 +523,26 @@ img {
 	    background: #555;
 	    }
 
-/* Float Clearing http://nicolasgallagher.com/micro-clearfix-hack */
-
-.group:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-    clear: both;
-}
-
-.group {
-    *zoom: 1; /* 3 */
-    }
-
-	/* ******************************************
-	    IE 7 and below, legacy browser style fixes
-	****************************************** */
-
-	.ie .wrapper {
-	    *behavior: url("http://absolute-path.com/js/boxsizing.htc");
-	}
-
-	/* Clearfix */
-
-	.group {
-	    *zoom: 1;
-	    }
-
-
 /* ******************************************
-			Media Queries for screen less than 45em (720px)
+    Media Queries for screen less than 45em (720px)
 ****************************************** */
-	@media screen and (max-width: 45em) {
+	
+@media screen and (max-width: 45em) {
+	
 	#container-header {
 		background: #352a38 url("../img/bg-photo-s.jpg") no-repeat top center;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		background-size: cover;
 		padding: 10% 0;
-			}
-		}	
+	}
 
+    #portfolio figure {
+        
+    }
+
+}
+		
 /* ******************************************
 	Media Queries for screen wider than 45em (720px)
 ****************************************** */
@@ -612,7 +553,6 @@ img {
 	        font-size: 107.692307692308%;
 	        }
 
-		#portfolio article,
 		#resume article {
 			float: left;
 			width: 33.333%;
@@ -621,6 +561,7 @@ img {
 		#masthead {
 			max-width:40em;
 		}
+		
 		#nav,
 		#masthead,
 		#content,
@@ -630,16 +571,45 @@ img {
 			
 		#container-header {
 			background: #352a38 url("../img/bg-photo-l.jpg") no-repeat top center;
-			padding:5% 0;
+			padding: 5% 0;
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
 			background-size: cover;
 		}
-			
-			
+						
+	    /* Navigation */
+    
+	    #nav {
+	        padding: 0;
+	    }
+		
+	    #nav h3 {
+	         margin: .39em 1.3em 0 0;
+	    }
+		
 	    #nav label {
 	        display: none;
 	    }
+		
+	    #nav nav {
+	        height: auto;
+	    }
+		
+	    #nav ul {
+	        border: 0;
+	        margin: 0;
+	        }
+	        
+		#nav li {
+            display: inline;
+            border: 0;
+        }
+        
+		#nav a {
+		    display: inline-block;
+		}
+		    
+		/* Contact Form */
 			
 		.name, .email {
 			    float: left;
@@ -667,13 +637,13 @@ img {
 		Media Queries for screen wider than 60em (960px)
 	****************************************** */
 	
-	@media (min-width: 60em) {
+	@media screen and (min-width: 60em) {
 
 	.name, .email {
 	    padding-right: 1.3em;
 	    padding-left: 0;
 	    clear: both;
-	    }
+	    }	
     
 	.message textarea {
 	    width: 50%;
@@ -683,6 +653,16 @@ img {
 	    width: 25%;
 	    margin-left: 50%;
 	    }
+	    
+	/* Form Fixes, IE7 and below */
+
+    .ie .message textarea {
+        *width: 49.9%;
+        }
+    
+    .ie .send {
+        *margin-left: 46.7%;
+        }
     
 	}
 
@@ -720,3 +700,65 @@ img {
 	
 }
 	
+/* Float Clearing http://nicolasgallagher.com/micro-clearfix-hack */
+
+.group:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+    clear: both;
+}
+
+/* ******************************************
+    IE 8 and below, legacy browser style fixes
+****************************************** */
+
+/* Figures/Images */
+
+.ie #portfolio figure {
+    width: 100%;
+    box-sizing: border-box;
+    }
+
+/* "*" hack applies only to IE7 and below */
+
+.ie #portfolio figure {
+    *width: auto;
+    }
+    
+/* Navigation */
+
+/* IE8 .checked class for checkbox.js */
+
+#nav input[type=checkbox].checked ~ nav {
+    height: auto;
+    overflow: visible;  
+}
+
+/* Always show nav, IE7 and below */
+
+.ie #nav nav {
+    *height: auto;
+    *overflow: visible;  
+}
+
+/* Hide navicon, IE7 and below */
+
+.ie #nav label { 
+    *background: none;
+    }
+    
+/* box-sizing polyfill, IE7 and below */
+
+.ie .wrapper,
+.ie .name,
+.ie .email,
+.ie input,
+.ie textarea {
+    *behavior: url("http://www.absolute-path.com/js/boxsizing.htc");
+}
+
+/* Clearfix */
+
+.group {
+    *zoom: 1;
+}
