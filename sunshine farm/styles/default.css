@@ -312,7 +312,7 @@ h3 {
 	padding-bottom: 30px;
 	clear: both;
 	margin-top: 25px;
-	border: .25px solid #CCCCCC;
+	/*--border: .5px solid #794600;--*/
 	margin-bottom: 50px;
 	margin-right: 30px;
 	margin-left: 30px;
@@ -335,7 +335,7 @@ h3 {
 	margin-left: 20px;
 	padding-right: 8px;
 	padding-left: 8px;
-	float: right;
+	display: inline;
 }
 #footerNav li {
 	display: inherit;
