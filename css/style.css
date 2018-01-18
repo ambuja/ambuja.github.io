@@ -250,13 +250,13 @@ h6 {
 		
 /* Headshot */
 
-#maya {
+#ambuja{
 		    width: 25%;
 		    height: 0;
 		    padding-bottom: 25%;
 		    }
     
-#maya img {
+#ambuja img {
 		    width: 100%;
 		    }		
 		
@@ -294,6 +294,7 @@ h6 {
 	-webkit-box-shadow: 0 0 .325em .13em rgba( 0, 0, 0, .1 );
 	box-shadow: 0 0 .325em .13em rgba( 0, 0, 0, .1 );
 	padding: .975em; /* 3/4 of 1.3 */
+	
 		}
 		
 /* Creates hover effect on Portfolio images */
@@ -463,6 +464,7 @@ img {
 	figure video {
 	    display: block;
 	    max-width: 100%; 
+	    min-width: 100%;
 	}
 
 	img {
@@ -590,11 +592,11 @@ img {
 
 
 /* ******************************************
-			Media Queries for screen less than 45em (720px)
+			Media Queries for screen less than 45em (720px) color #352a38
 ****************************************** */
 	@media screen and (max-width: 45em) {
 	#container-header {
-		background: #352a38 url("../img/bg-photo-s.jpg") no-repeat top center;
+		background:  linear-gradient(rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.57)),url("../img/bk-wireframe.jpeg") no-repeat top center;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		background-size: cover;
@@ -616,24 +618,32 @@ img {
 		#resume article {
 			float: left;
 			width: 33.333%;
+
 		}
+		
 		
 		#masthead {
 			max-width:40em;
+
 		}
 		#nav,
-		#masthead,
+		
 		#content,
 		#colophon {
 		    margin: 0 5.5%;
 		    }
 			
+		#masthead {
+		margin: 10% 15.5%;
+		    }
+
 		#container-header {
-			background: #352a38 url("../img/bg-photo-l.jpg") no-repeat top center;
+			background: linear-gradient(rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.57)), url("../img/bk-wireframe.jpeg") no-repeat top center;
 			padding:5% 0;
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
 			background-size: cover;
+			height: 80vh;
 		}
 			
 			
@@ -720,3 +730,58 @@ img {
 	
 }
 	
+wrapper {
+    max-width: 1300px;
+    padding: 60px;
+    margin: 0 auto;
+}
+
+.wrapper:after, .wrapper:before {
+    content: "";
+    display: table;
+}
+
+
+
+#skillSet .skillSet-inner {
+    background: #fff;
+    padding: 40px;
+    position: relative;
+}
+
+#skillSet .skillSet-inner:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    background: url(../images/curl.png) no-repeat;
+    height: 69px;
+    width: 63px;
+    z-index: 1;
+}
+
+
+element.style {
+}
+main.css:1
+#skillSet article.skill:nth-child(2) {
+    background: url(../images/icon-web.svg);
+}
+
+#skillSet article.skill {
+    display: inline;
+    float: left;
+    width: 22.91667%;
+    margin: 30px 1.04167%;
+    text-align: center;
+    padding-top: 160px;
+    overflow: hidden;
+    background-repeat: no-repeat!important;
+    background-size: auto 130px!important;
+    background-position: center top!important;
+
+}
+
+
+
+
