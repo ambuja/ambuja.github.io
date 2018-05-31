@@ -3,7 +3,7 @@
 $email = $_POST['email'];
 $message = $_POST['message'];
 $formcontent="from: $name \n Message: $message";
-$recipient = "ambujamagaji.com";
+$recipient = "ambuja@ambujamagaji.com";
 $subject ="Contact Form";
 $mailheader ="From: $email \r\n";
 mail($recipient, $subject, $formcontent, $mailheader) or die("Error");
